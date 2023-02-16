@@ -25,20 +25,22 @@ body{
     clip-path: circle(20% at 10% 10%);
     z-index: -1;
 }
-@media screen and (max-width:1000px){
+ @media screen and (max-width:1000px){
     .ball{
         height: 100%;
         width: 120%;
         clip-path: circle(30% at right 80%);
     }
 }
+
 @media screen and (max-width:500px){
     .ball{
         height: 100%;
         width: 100%;
-        clip-path: circle(40% at right 90%);
+        clip-path: circle(30% at right 90%);
     }
 }
+
 @media screen and (max-width:340px){
     .ball{
         height: 80%;
